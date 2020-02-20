@@ -1,0 +1,377 @@
+/* En https://uigradients.com/ buscas codigo css de degradados .*/
+/* background Amarillo degradado .*/
+body {
+  height: 100%;
+  background: #CAC531;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* NAVBAR */
+.superior{
+  background: #2980B9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* Boton navbar */
+.Bmenu{
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* Logo navbar */
+.logoSn{
+  width: 30px;
+  height: 30px;
+}
+/* Palabra: Lenceria */
+.txtL{
+    text-decoration: none;
+    font-family: 'Alex Brush', cursive;
+    font-size: 20pt;
+    letter-spacing: 4px;
+    color: #000000;
+}
+.txtL:hover{
+  text-decoration: none;
+}
+
+/* Texto de Bienvenida     min-width: 445px; display: inline-block; */
+/*
+https://www.genbeta.com/desarrollo/responsive-design-estructura-adaptable
+
+https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/#:~:targetText=Max%2Dwidth%20and%20min%2Dwidth,specific%20devices%20with%20known%20widths.
+Tablet styles (max-width: 768px)
+Mobile styles (max-width: 414px)
+@media all and (max-width: 600px){
+    div{
+        width:100%;
+        height:auto;
+        margin-left:10px;
+    }
+}
+ */
+.divB{
+  min-width: 445px;
+  width: 70%;
+  margin: 8px auto;
+  text-align: center;
+}
+    .divB2{
+      text-align: center;
+    }
+      .divL{
+        width: 400px;
+        height: 180px;
+        text-align: left;
+        margin: 0px auto;
+      }
+          .logoS{
+            float:left;
+            width: 130px;
+            margin: 2px auto;
+          }
+          .txtBc{
+            font-family: 'Alex Brush', cursive;
+            font-size: 4em;
+            letter-spacing: 8px;
+          }
+          .txtBt{
+            font-family: serif;
+            font-size: 3em;
+          }
+    .clear{
+      clear: both;
+      padding-top: 12px;
+    }
+    .IS{
+
+    }
+
+/* POLITICA DE PRIVACIDAD */
+  .priv{
+    min-width: 445px;
+    width: 70%;
+    margin: 8px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+/* PopUp */
+
+  .popup{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+    .popup-content{
+      width: 500px;
+      height: 300px;
+      background-color: white;
+      opacity: 1;
+      border-radius: 4px;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+    .close{
+      position: absolute;
+      top: 6px;
+      right: 14px;
+      font-size: 42px;
+      transform: rotate(45deg);
+      cursor: pointer;
+    }
+    .Ss{
+      padding-top: 15px;
+      width: 60px;
+      height: 80px;
+    }
+    .mediante{
+      font-family: serif;
+      text-align: center;
+      padding: 10px;
+    }
+    .iconos{
+      text-align: center;
+    }
+      .twitter{
+        font-size: 40pt;
+      }
+      .facebook{
+        padding: 8px;
+        color: #3b5998;
+        font-size: 40pt;
+      }
+      .googleplus{
+        color: #db4a39;
+        font-size: 40pt;
+      }
+
+
+/* Carousel */
+.ca1{
+  width: 300px;
+  margin: 0 auto;
+  position: absolute;
+}
+/* imagen carousel*/
+.c1{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* SOCIAL BAR .*/
+.bar1{
+  padding-top: 8px;
+  margin: 0 auto;
+  text-align: center;
+}
+.btn2{
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background: #f1f1f1;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #0575E6;  /* fallback for old browsers */
+  color: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow: hidden;
+  position: relative;
+}
+.btn2i {
+  color: #b92b27;  /* fallback for old browsers */
+  color: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.btn2y{
+  color: #e52d27;  /* fallback for old browsers */
+  color: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btn2 i{
+  line-height: 45px;
+  font-size: 20px;
+  transition: 0.2s linear;
+}
+.btn2:hover i{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+.btn2::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #0575E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.btn2i::before{
+  background: #b92b27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btn2y::before{
+  background: #e52d27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btn2:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+@keyframes aaa {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
+  }
+}
+
+
+
+/* MEDIA Query */
+/* 441px se mueve el menu... y en 633 las letras del logo */
+/* iphone6/7/8=375px iphone5/SE=320px */
+@media(max-width: 633px) {
+/* NAVBAR */
+    /* Logo navbar */
+      .logoSn{
+        width: 20px;
+        height: 20px;
+        margin: 3px;
+      }
+    /* Palabra: Lenceria */
+      .txtL{
+          text-decoration: none;
+          font-family: 'Alex Brush', cursive;
+          font-size: 15pt;
+          letter-spacing: 4px;
+          color: #000000;
+      }
+    /* Boton menu NAVBAR */
+      .Bmenu{
+        width: 30px;
+        height: 30px;
+      }
+      .Bmenu2{
+        font-size: 12pt;
+        margin-left:-10px;
+        margin-top: -2px;
+      }
+      /* SOCIAL BAR */
+          .bar1{
+            padding-top: 8px;
+            margin: 0 auto;
+            text-align: center;
+          }
+          .btn2{
+            width: 30px;
+            height: 30px;
+            margin: 1px;
+          }
+          .btn2 i{
+            line-height: 30px;
+            font-size: 15px;
+            transition: 0.2s linear;
+          }
+          .btn2:hover i{
+            transform: scale(1.3);
+            color: #f1f1f1;
+          }
+          .btn2::before{
+            content: "";
+            position: absolute;
+            width: 120%;
+            height: 120%;
+            background: #0575E6;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            transform: rotate(45deg);
+            left: -110%;
+            top: 90%;
+          }
+          .btn2i::before{
+            background: #b92b27;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          }
+          .btn2y::before{
+            background: #e52d27;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          }
+          .btn2:hover::before{
+            animation: aaa 0.7s 1;
+            top: -10%;
+            left: -10%;
+          }
+          @keyframes aaa {
+            0%{
+              left: -110%;
+              top: 90%;
+            }50%{
+              left: 10%;
+              top: -30%;
+            }100%{
+              top: -10%;
+              left: -10%;
+            }
+          }
+
+/* TEXTO DE Bienvenida (donde esta el logo) */
+    .divB{
+      width: 95%;
+      margin: 8px auto;
+    }
+        .divB2{
+          text-align: center;
+        }
+          .divL{
+            width: 225px;
+            height: 100px;
+            text-align: left;
+            margin: 0px auto;
+          }
+          .logoS{
+            width: 60px;
+          }
+          .txtBc{
+            font-family: 'Alex Brush', cursive;
+            font-size: 18pt;
+            letter-spacing: 8px;
+          }
+          .txtBt{
+            font-family: serif;
+            font-size: 22pt;
+          }
+    .clear{
+      clear: both;
+    }
+    .IS{
+
+    }
+
+
+}
