@@ -96,13 +96,9 @@ Mobile styles (max-width: 414px)
           }
           .txtBt{
             font-family: serif;
-<<<<<<< HEAD
             font-size: 3em;
             padding-left: 60px;
             margin-bottom: 0px;
-=======
-            font-size: 2.6em;
->>>>>>> 99bb6bb22a7fd1124f2f707fb9c144d7fd1d98e8
           }
     .clear{
       clear: both;
@@ -352,7 +348,7 @@ Mobile styles (max-width: 414px)
             background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
           }
           .btn2::before{
-            /*:hover::before*/
+            /*:hover::before xD*/
             /*animation: aaa 0.7s 1;*/
             animation-duration: 1.2s;
             animation-name: aaa;
