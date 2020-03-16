@@ -347,7 +347,7 @@ Mobile styles (max-width: 414px)
             background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
           }
-          .btn2::before{
+          .btn2::before{ /*se agrego esto para los celulares*/
             /*:hover::before*/
             /*animation: aaa 0.7s 1;*/
             animation-duration: 1.2s;
