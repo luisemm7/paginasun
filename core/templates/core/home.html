@@ -5,11 +5,17 @@
 <!-- CARD Texto de Bienvenida-->
 <div class="divB card">
   <div class="divB2 card-body">
+
       <div class="divL">
-        <img class="logoS" src="{% static 'core/img/s5.png' %}">
-        <p class="txtBc">Lencería</p>
-        <p class="txtBt">UNFLOWER</p>
+        <div class="divL2">
+          <img class="logoS" src="{% static 'core/img/s5.png' %}">
+        </div>
+        <div class="divL3">
+          <p class="txtBc">Lencería</p>
+          <p class="txtBt">UNFLOWER</p>
+        </div> 
       </div>
+
     {% if user.is_authenticated %}
     {% load i18n %}
       <p class="clear">Bienvenido {{ user }}.</p>

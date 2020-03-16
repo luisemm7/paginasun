@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'core',
-    'sslserver',
+    #'sslserver',
     #allauth
     'allauth',
     'allauth.account',
