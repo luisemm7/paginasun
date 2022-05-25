@@ -39,7 +39,7 @@ pycairo==1.19.1
 pycups==1.9.74
 pycurl==7.43.0.5
 PyGObject==3.34.0
-PyJWT==1.7.1
+PyJWT==2.4.0
 pyparsing==2.4.6
 PyQt5==5.14.1
 PyQt5-sip==12.7.1
